@@ -1,0 +1,33 @@
+name: Autonomous AI Learning Loop
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Triggers automatically every 60 minutes
+  workflow_dispatch: # Adds a manual run button so you can test it anytime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository files
+      uses: actions/checkout@v3
+
+    - name: Set up cloud Python system
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install AI library dependencies
+      run: |
+        pip install transformers torch duckduckgo-search
+
+    - name: Execute Autonomous Learning Script
+      run: python bot.py
+
+    - name: Commit and Save Learned Knowledge to your File Base
+      run: |
+        git config --global user.name 'Cloud-AI-Bot'
+        git config --global user.email 'bot@://github.com'
+        git add knowledge_base.txt
+        git commit -m "Autonomous update: AI logged new background research facts" || exit 0
+        git push
