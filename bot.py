@@ -14,7 +14,7 @@ if not os.path.exists(knowledge_file):
 api_key = os.environ.get("GROQ_API_KEY")
 
 if api_key:
-    url = "https://groq.com"
+    url = "https://api.groq.com/openai/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
@@ -37,7 +37,8 @@ if api_key:
     }
     
     try:
-        req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers=headers)
+        # FIX: Added method="POST" explicitly so the server accepts our data connection payload
+        req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers=headers, method="POST")
         with urllib.request.urlopen(req) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             ai_output = res_data["choices"]["message"]["content"]
@@ -53,3 +54,4 @@ with open(knowledge_file, "a") as f:
     f.write("="*75 + "\n")
 
 print("Docs updated successfully.")
+
