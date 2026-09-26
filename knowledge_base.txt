@@ -328,3 +328,10 @@ Target Matrix M:
   1. Determinant Calculation: det(M) = (4*4) - (5*2) -> Answer: 6
   2. Inverse Matrix Inversion: M^-1 -> Answer: Matrix([[2/3, -5/6], [-1/3, 2/3]])
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 09:09:25]
+Category: Advanced Calculus (Symbolic Integration & Differentiation)
+Target Function: f(x) = 3*x**5 + 7
+  1. Derivative Log: f'(x) = d/dx [3*x**5 + 7] -> Answer: 15*x**4
+  2. Integral Log: ∫ [3*x**5 + 7] dx -> Answer: x**6/2 + 7*x + C
+===========================================================================
