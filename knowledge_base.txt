@@ -335,3 +335,10 @@ Target Function: f(x) = 3*x**5 + 7
   1. Derivative Log: f'(x) = d/dx [3*x**5 + 7] -> Answer: 15*x**4
   2. Integral Log: ∫ [3*x**5 + 7] dx -> Answer: x**6/2 + 7*x + C
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 10:09:33]
+Category: Advanced Calculus (Symbolic Integration & Differentiation)
+Target Function: f(x) = 8*x**3 + 5
+  1. Derivative Log: f'(x) = d/dx [8*x**3 + 5] -> Answer: 24*x**2
+  2. Integral Log: ∫ [8*x**3 + 5] dx -> Answer: 2*x**4 + 5*x + C
+===========================================================================
