@@ -14,7 +14,8 @@ study_syllabus = [
     "latest advancements in artificial intelligence 2026",
     "recent breakthroughs in quantum computing engineering",
     "space exploration and mars rover news updates",
-    "new developments in renewable clean energy technologies"
+    "new developments in renewable clean energy technologies",
+    "Study every single math equation in the world to solve it"
 ]
 
 def background_web_harvest(query):
