@@ -156,3 +156,12 @@ Target Function: f(x) = 7*x**3 + 11
   1. Derivative Log: f'(x) = d/dx [7*x**3 + 11] -> Answer: 21*x**2
   2. Integral Log: ∫ [7*x**3 + 11] dx -> Answer: 7*x**4/4 + 11*x + C
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 05:17:53]
+Category: Linear Algebra (Matrix Array Systems)
+Target Matrix M:
+  [2, 1]
+  [1, 4]
+  1. Determinant Calculation: det(M) = (2*4) - (1*1) -> Answer: 7
+  2. Inverse Matrix Inversion: M^-1 -> Answer: Matrix([[4/7, -1/7], [-1/7, 2/7]])
+===========================================================================
