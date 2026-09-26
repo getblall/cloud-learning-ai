@@ -181,3 +181,12 @@ Target Function: f(x) = 8*x**5 + 13
   1. Derivative Log: f'(x) = d/dx [8*x**5 + 13] -> Answer: 40*x**4
   2. Integral Log: ∫ [8*x**5 + 13] dx -> Answer: 4*x**6/3 + 13*x + C
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 05:19:55]
+Category: Linear Algebra (Matrix Array Systems)
+Target Matrix M:
+  [2, 2]
+  [3, 2]
+  1. Determinant Calculation: det(M) = (2*2) - (2*3) -> Answer: -2
+  2. Inverse Matrix Inversion: M^-1 -> Answer: Matrix([[-1, 1], [3/2, -1]])
+===========================================================================
