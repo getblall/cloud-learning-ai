@@ -22,6 +22,9 @@ jobs:
         pip install transformers torch duckduckgo-search
 
     - name: Execute Autonomous Learning Script
+      # FIX: This block securely forwards your repository secret into the Python environment runtime!
+      env:
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: python bot.py
 
     - name: Commit and Save Learned Knowledge to your File Base
