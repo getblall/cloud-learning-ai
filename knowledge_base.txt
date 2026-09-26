@@ -280,3 +280,10 @@ Target Function: f(x) = 8*x**3 + 6
   1. Derivative Log: f'(x) = d/dx [8*x**3 + 6] -> Answer: 24*x**2
   2. Integral Log: ∫ [8*x**3 + 6] dx -> Answer: 2*x**4 + 6*x + C
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 05:29:41]
+Category: Advanced Calculus (Symbolic Integration & Differentiation)
+Target Function: f(x) = 7*x**3 + 4
+  1. Derivative Log: f'(x) = d/dx [7*x**3 + 4] -> Answer: 21*x**2
+  2. Integral Log: ∫ [7*x**3 + 4] dx -> Answer: 7*x**4/4 + 4*x + C
+===========================================================================
