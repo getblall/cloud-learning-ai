@@ -140,3 +140,12 @@ Factored Expression: (1x + 5)(2x + 3)
   1. FOIL Multiplication Execution: Distributing term vectors across scales...
   2. Complete Structural Expanded Equation -> Answer: 2*x**2 + 13*x + 15 = 0
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 05:16:36]
+Category: Linear Algebra (Matrix Array Systems)
+Target Matrix M:
+  [3, 3]
+  [5, 1]
+  1. Determinant Calculation: det(M) = (3*1) - (3*5) -> Answer: -12
+  2. Inverse Matrix Inversion: M^-1 -> Answer: Matrix([[-1/12, 1/4], [5/12, -1/4]])
+===========================================================================
