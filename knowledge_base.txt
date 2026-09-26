@@ -390,3 +390,10 @@ Target Matrix M:
   1. Determinant Calculation: det(M) = (4*3) - (2*4) -> Answer: 4
   2. Inverse Matrix Inversion: M^-1 -> Answer: Matrix([[3/4, -1/2], [-1, 1]])
 ===========================================================================
+
+[LUMENI LOCAL CORE REASONING LOG: 2026-09-26 17:08:50]
+Category: Advanced Calculus (Symbolic Integration & Differentiation)
+Target Function: f(x) = 8*x**4 + 6
+  1. Derivative Log: f'(x) = d/dx [8*x**4 + 6] -> Answer: 32*x**3
+  2. Integral Log: ∫ [8*x**4 + 6] dx -> Answer: 8*x**5/5 + 6*x + C
+===========================================================================
